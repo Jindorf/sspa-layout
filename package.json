@@ -1,12 +1,12 @@
 {
-    "name": "sspa-auth",
+    "name": "sspa-layout",
     "version": "0.1.0",
     "private": true,
-    "main": "dist/single-spa-auth-app.js",
+    "main": "dist/single-spa-layout-app.js",
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "webpack",
-        "build-vue-cli": "vue-cli-service build --target lib --formats umd --name single-spa-auth-app src/main.js",
+        "build-vue-cli": "vue-cli-service build --target lib --formats umd --name single-spa-layout-app src/main.js",
         "lint": "vue-cli-service lint",
         "serve:standalone": "vue-cli-service serve --mode standalone"
     },
@@ -14,20 +14,21 @@
         "vue-loader": "^15.9.8"
     },
     "devDependencies": {
-        "core-js": "^3.6.5",
-        "single-spa-vue": "^2.1.0",
-        "vue": "^2.6.11",
-        "vue-cli-plugin-single-spa": "~3.1.2",
-        "vue-router": "^3.2.0",
-        "vue-template-compiler": "^2.6.14",
         "@vue/cli-plugin-babel": "~4.5.0",
         "@vue/cli-plugin-eslint": "~4.5.0",
         "@vue/cli-plugin-router": "~4.5.0",
         "@vue/cli-service": "~4.5.0",
         "babel-eslint": "^10.1.0",
+        "bootstrap-vue": "^2.21.2",
+        "core-js": "^3.6.5",
         "eslint": "^6.7.2",
         "eslint-plugin-import": "^2.20.2",
         "eslint-plugin-vue": "^6.2.2",
+        "single-spa-vue": "^2.1.0",
+        "vue": "^2.6.11",
+        "vue-cli-plugin-single-spa": "~3.1.2",
+        "vue-router": "^3.2.0",
+        "vue-template-compiler": "^2.6.14",
         "webpack-cli": "^4.9.2",
         "webpack-config-single-spa": "^5.2.0",
         "webpack-merge": "^5.8.0"
