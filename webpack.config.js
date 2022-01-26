@@ -3,13 +3,13 @@ const webpack = require("webpack");
 const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = () => ({
-  name:"single-spa-laylout-app",
+  name:"single-spa-layout-app",
   entry:"./src/main.js",
   mode:'production',
   output: {
-    library: "single-spa-laylout-app",
+    library: "single-spa-layout-app",
     libraryTarget: "umd",
-    filename: "single-spa-laylout-app.js",
+    filename: "single-spa-layout-app.js",
     path: path.resolve(__dirname, "dist"),
     globalObject: 'this'
   },
