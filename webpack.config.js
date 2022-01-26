@@ -11,6 +11,7 @@ module.exports = () => ({
     libraryTarget: "umd",
     filename: "single-spa-auth-app.js",
     path: path.resolve(__dirname, "dist"),
+    globalObject: 'this'
   },
   module: {
     rules: [
@@ -44,5 +45,5 @@ module.exports = () => ({
       maxChunks: 1,
     }),
   ],
-  externals: ["bootstrap", "bootstrap-vue", "single-spa-vue", "vue", "vue-router", "vue-toastr"],
+  externals: ["bootstrap", "bootstrap-vue", "single-spa-vue", "vue", "vue-router"],
 });
