@@ -1,22 +1,19 @@
-/* eslint-disable import/no-unresolved */
-/* eslint-disable import/no-extraneous-dependencies */
 import Vue from 'vue';
 import singleSpaVue from 'single-spa-vue';
+import { BootstrapVue } from 'bootstrap-vue';
 
 import App from './App.vue';
 import router from './router';
+
+Vue.use(BootstrapVue);
 
 Vue.config.productionTip = false;
 
 const vueLifecycles = singleSpaVue({
   Vue,
   appOptions: {
-    render(h) {
-      return h(App, {
-        props: {
-        },
-      });
-    },
+    el: '#auth-app',
+    render: (h) => h(App),
     router,
   },
 });
