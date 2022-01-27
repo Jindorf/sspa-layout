@@ -5,7 +5,7 @@ const { VueLoaderPlugin } = require('vue-loader')
 module.exports = () => ({
   name:"single-spa-layout-app",
   entry:"./src/main.js",
-  mode:'production',
+  mode:'development',
   output: {
     library: "single-spa-layout-app",
     libraryTarget: "umd",
