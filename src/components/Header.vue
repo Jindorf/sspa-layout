@@ -1,13 +1,13 @@
 <template>
   <div id="header" class="clearfix">
     <b-navbar type="dark" variant="primary" fixed="top">
-      <b-navbar-brand href="https://single-spa.js.org/">
+      <b-navbar-brand href="https://single-spa.js.org/" target="_blank">
           Single SPA
       </b-navbar-brand>
 
       <b-navbar-nav class="ml-auto">
-          <b-nav-item href="/"> Home </b-nav-item>
           <b-nav-item href="/vue"> Vue-App </b-nav-item>
+           <b-nav-item href="/react"> React-App </b-nav-item>
           <b-nav-item href="/login"> Login-Page </b-nav-item>
         
         <b-nav-item-dropdown right>
