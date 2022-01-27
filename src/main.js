@@ -3,7 +3,6 @@ import singleSpaVue from 'single-spa-vue';
 import { BootstrapVue } from 'bootstrap-vue';
 
 import App from './App.vue';
-import router from './router';
 import store from './store';
 
 Vue.use(BootstrapVue);
@@ -15,7 +14,6 @@ const vueLifecycles = singleSpaVue({
   appOptions: {
     el: '#layout-app',
     render: (h) => h(App),
-    router,
     store
   },
 });
