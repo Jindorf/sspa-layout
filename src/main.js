@@ -16,6 +16,7 @@ const vueLifecycles = singleSpaVue({
     el: '#layout-app',
     render: (h) => h(App),
     router,
+    store
   },
 });
 
