@@ -41,5 +41,5 @@ module.exports = () => ({
       maxChunks: 1,
     }),
   ],
-  externals: ["bootstrap", "bootstrap-vue", "single-spa-vue", "vue", "vue-router"],
+  externals: ["bootstrap", "bootstrap-vue", "single-spa-vue", "vue", "vue-router", "vuex"],
 });
