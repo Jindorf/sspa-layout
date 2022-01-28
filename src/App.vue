@@ -1,6 +1,7 @@
 <template>
-  <div id="auth-app">
+  <div id="layout-app">
     <Header></Header>
+    <h1 class="test">Test-Class for CSS-overwriting</h1>
   </div>
 </template>
 
